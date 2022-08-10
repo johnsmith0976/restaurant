@@ -1,0 +1,139 @@
+
+.body {
+    background: url('./cat.jpg');
+}
+#content {
+height: 100vh;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+}
+.greet {
+   text-align: center;
+   font-size: 2em;
+   margin-bottom: 10px;
+   padding-top: 5%;
+
+}
+h1, .slogan {
+    text-align: center;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+div {
+   
+}
+button {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 100%;
+    width: 180%;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-self: flex-end;
+    line-height: 18px;
+
+}
+.title, .tab {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.businfo {
+    text-align: center;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+}
+.white {
+    background-color: white;
+    display: none;
+    height: 75%;
+    border-radius: 12px;
+}
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+footer {
+    width: 100%;
+    background-color: lightpink;
+    text-align: center;
+}
+.cattop {
+    height: 15%;
+}
+.catbot {
+    height: 20%;
+    width: 20%;
+}
+.catspc {
+    width: 15%;
+}
+.flexcat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.unsur {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.tab button {
+    cursor: pointer;
+    border: none;
+}
+.tab button:hover {
+    background-color: white;
+}
+button.active {
+    background-color: white;
+}
+.tab {
+    align-self: flex-end;
+    margin-top: 50px;
+    display: flex;
+}
+
+.white {
+ margin-left: 10%;
+ margin-right: 10%;
+}
+p {
+    font-size: 20px;
+}
+h2 {
+    font-size: 2em;
+}
+.slogan, h1 {
+    margin: 0;
+}
+.slogan {
+    padding-bottom: 1px;
+    font-size: .9em
+}
+h1 {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
